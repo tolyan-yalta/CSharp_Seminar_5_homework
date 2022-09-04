@@ -9,7 +9,7 @@ int random_number()
     return number;
 }
 
-int count(int number)
+int sum_digit(int number)
 {
     int digit1 = number % 10;
     number = number / 10;
@@ -29,7 +29,7 @@ while(sum < 26)
     {
         Console.Write(number + " ");
         temp = number;
-        sum = count(number);
+        sum = sum_digit(number);
         
     }
 }
