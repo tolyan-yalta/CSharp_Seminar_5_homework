@@ -58,8 +58,7 @@ for(int i = 0; i < 5;)
     if(last_digit != 1) condition1 = true;
 
     int sum = sum_digit(simple_number);
-    if(sum > 10) 
-    if(sum < 20)   condition2 = true;
+    if(sum > 10 && sum < 20)   condition2 = true;
 
     if(condition1 == true && condition2 == true)
     {
